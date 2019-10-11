@@ -5251,3 +5251,11 @@ Processing by PostsController#new as HTML
 Completed 200 OK in 54ms (Views: 52.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/posts/new" for 73.6.172.127 at 2019-10-11 06:23:53 +0000
+Cannot render console from 73.6.172.127! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  [1m[36mAuthor Load (0.4ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  Rendered posts/_form.html.erb (39.4ms)
+  Rendered posts/new.html.erb within layouts/application (41.4ms)
