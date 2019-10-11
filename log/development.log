@@ -5259,3 +5259,6 @@ Processing by PostsController#new as HTML
   [1m[36mAuthor Load (0.4ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
   Rendered posts/_form.html.erb (39.4ms)
   Rendered posts/new.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 810ms (Views: 768.0ms | ActiveRecord: 1.8ms)
+
+
